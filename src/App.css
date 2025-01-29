@@ -149,11 +149,19 @@ body {
   filter: grayscale();
   opacity: 0.8;
 }
+.pizza.sold-out span {
+  color: #888;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
 /* *************** */
 
 .footer {
+  margin-top: 30px;
   font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .order {
@@ -163,14 +171,14 @@ body {
   gap: 2.4rem;
 }
 .order > p{
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 .btn {
   color: inherit;
   font-family: inherit;
   border: none;
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: 600;
   background-color: #edc84b;
   padding: 1.4rem 3.2rem;
   cursor: pointer;
